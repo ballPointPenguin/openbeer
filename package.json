@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/ballPointPenguin/openbeer/issues"
   },
-  "homepage": "https://github.com/ballPointPenguin/openbeer#readme"
+  "homepage": "https://github.com/ballPointPenguin/openbeer#readme",
+  "dependencies": {
+    "request": "^2.74.0"
+  }
 }
