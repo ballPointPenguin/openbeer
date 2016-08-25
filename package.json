@@ -1,15 +1,12 @@
 {
   "name": "openbeer",
   "version": "0.0.1",
-  "description": "Graph Database-backed JSON API for exploring the world of beer.",
-  "engines": {
-    "node": "~6.4"
-  },
   "private": true,
-  "main": "index.js",
   "scripts": {
-    "test": "node bin/run-tests.js"
+    "start": "node ./bin/www"
   },
+  "description": "Graph Database-backed JSON API for exploring the world of beer.",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/ballPointPenguin/openbeer.git"
@@ -26,7 +23,12 @@
   },
   "homepage": "https://github.com/ballPointPenguin/openbeer#readme",
   "dependencies": {
+    "body-parser": "~1.15.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
     "dotenv": "^2.0.0",
+    "express": "~4.13.4",
+    "morgan": "~1.7.0",
     "request": "^2.74.0"
   }
 }
